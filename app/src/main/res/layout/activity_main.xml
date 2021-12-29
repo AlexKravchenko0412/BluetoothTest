@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tvStatusBluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnTurnOn"
+        android:minWidth="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn on" />
+
+    <Button
+        android:id="@+id/btnTurnOff"
+        android:minWidth="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn off" />
+
+    <Button
+        android:id="@+id/btnDiscoverable"
+        android:minWidth="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discoverable" />
+
+    <Button
+        android:id="@+id/btnPaired"
+        android:minWidth="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Paired Devices" />
+
+    <TextView
+        android:id="@+id/tvPaired"
+        android:minWidth="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+</LinearLayout>
