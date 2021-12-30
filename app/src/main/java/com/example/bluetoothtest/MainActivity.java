@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             statusBT.setText("Bluetooth is not available");
         }
         else {
-            statusBT.setText("Bluetooth i available");
+            statusBT.setText("Bluetooth is available");
         }
 
         if(adapter.isEnabled()) {
